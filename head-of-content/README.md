@@ -30,7 +30,9 @@ Each research skill also expects a tracked-accounts file in `.claude/context/` (
 
 ## Installation
 
-Copy the skill folders you want into your project's `.claude/skills/` directory, e.g.:
+Fastest path: copy the **[starter-kit](./starter-kit/)** folder into your project root — it already has all six skills wired up under `.claude/skills/`, placeholder context files under `.claude/context/`, and a `.env.example`. See its README for setup steps.
+
+To install manually instead, copy the skill folders you want into your project's `.claude/skills/` directory, e.g.:
 
 ```bash
 cp -r x-research instagram-research youtube-research tiktok-research video-content-analyzer content-planner /path/to/your-project/.claude/skills/
